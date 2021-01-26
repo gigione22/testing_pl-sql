@@ -12,8 +12,6 @@ CREATE OR REPLACE TYPE num_array AS TABLE OF NUMBER;
      END LOOP;
    END return_array_test;
    /
-   
-   
     DECLARE 
     
       s   num_array := num_array(3,4,5);
