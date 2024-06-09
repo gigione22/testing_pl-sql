@@ -1,1 +1,1 @@
-print('gigione este smecher10001')
+print('gigione este smecher10002')
