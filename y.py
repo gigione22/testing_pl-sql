@@ -1,3 +1,7 @@
-import array, struct
-m = memoryview(array.array('H', [32000, 32001, 32002]))
-print(m.itemsize)
+import random 
+  
+mylist = ["geeks", "for", "python"] 
+  
+p = print(random.choices(mylist, weights = [2, 3, 3], k = 5)) 
+print(p)
+
